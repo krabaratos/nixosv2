@@ -17,17 +17,18 @@
 
   # Optional: add KDE apps
   environment.systemPackages = with pkgs; [
-    darkly
-    kdePackages.kate
-    kdePackages.kdialog
-    kdePackages.flatpak-kcm
-    kdePackages.sddm-kcm
-    kdePackages.kpipewire
-    kdePackages.kcalc
-    libportal-qt6
-    sddm-astronaut
+  darkly
+  kdePackages.kate
+  kdePackages.kcalc
+  kdePackages.kdialog
+  kdePackages.flatpak-kcm
+  kdePackages.kpipewire
+  kdePackages.sddm-kcm
+  libportal-qt6
+  sddm-astronaut
   ];
 }
+
 
 
 
