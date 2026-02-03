@@ -9,13 +9,14 @@
 
   #AMD GPU Driver Packages
   environment.systemPackages = with pkgs; [
-     mesa 
-     vulkan-loader 
-     vulkan-tools 
-     vulkan-extension-layer
-     vulkan-validation-layers
-     libGL 
-     gnutls
-     pkgsi686Linux.gnutls
+  gnutls
+  libGL
+  mesa
+  pkgsi686Linux.gnutls
+  vulkan-extension-layer
+  vulkan-loader
+  vulkan-tools
+  vulkan-validation-layers
+
   ];
 }
