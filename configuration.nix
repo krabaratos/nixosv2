@@ -79,8 +79,8 @@
 
   #System Level packages
   environment.systemPackages = with pkgs; [
-appimage-run
 android-tools
+appimage-run
 discord
 firefox
 flatpak-xdg-utils
@@ -89,10 +89,10 @@ gvfs
 htop
 mpv
 neofetch
-vscode
 obs-studio
 qbittorrent
 qtscrcpy
+vscode
  ];
 
   system.stateVersion = "25.11"; 
