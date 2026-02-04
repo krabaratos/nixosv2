@@ -85,14 +85,19 @@ discord
 firefox
 flatpak-xdg-utils
 git
+glfw
 gvfs
 htop
+jdk21
+libxkbcommon
 mpv
 neofetch
 obs-studio
+prismlauncher
 qbittorrent
-qtscrcpy
+scrcpy
 vscode
+xkeyboard_config
  ];
 
   system.stateVersion = "25.11"; 
