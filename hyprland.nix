@@ -19,6 +19,7 @@
     hyprpaper
     hyprpicker
     hyprshot
+    kitty
 
     # GTK theming
     nwg-look
