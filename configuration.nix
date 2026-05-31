@@ -91,7 +91,7 @@ htop
 jdk21
 libxkbcommon
 mpv
-neofetch
+fastfetch
 obs-studio
 prismlauncher
 qbittorrent
