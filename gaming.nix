@@ -21,7 +21,7 @@ goverlay
 heroic-unwrapped
 mangohud
 steam-run
-wineWowPackages.stable
+wineWow64Packages.stable
 winetricks
 (lutris.override {
         extraLibraries =  pkgs: [
