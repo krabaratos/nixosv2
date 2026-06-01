@@ -13,10 +13,7 @@
       vulkan-extension-layer
     ];
 
-    # Mirror configuration for 32-bit applications (Wine/older games)
-    extraPackages32Bit = with pkgs; [
-      vulkan-loader
-    ];
+
   };
 
   # Instructs X11/Wayland display servers to load the NVIDIA driver
