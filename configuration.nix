@@ -79,25 +79,35 @@
 
   #System Level packages
   environment.systemPackages = with pkgs; [
-android-tools
-appimage-run
-discord
-firefox
-flatpak-xdg-utils
-git
-glfw
-gvfs
-htop
-jdk21
-libxkbcommon
-mpv
-fastfetch
-obs-studio
-prismlauncher
-qbittorrent
-scrcpy
-vscode
-xkeyboard_config
+    android-tools
+    appimage-run
+    bottles
+    brave
+    bzip2
+    discord
+    fastfetch
+    flatpak-xdg-utils
+    git
+    glfw
+    gnutar
+    gvfs
+    gzip
+    htop
+    jdk21
+    krita
+    libxkbcommon
+    mpv
+    obs-studio
+    p7zip
+    prismlauncher
+    qbittorrent
+    scrcpy
+    unrar
+    unzip
+    vscode
+    xkeyboard_config
+    xz
+    zip
  ];
 
   system.stateVersion = "26.05"; 
