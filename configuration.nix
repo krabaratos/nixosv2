@@ -98,6 +98,8 @@
     libxkbcommon
     mpv
     obs-studio
+    onlyoffice-desktopeditors
+    obsidian
     p7zip
     prismlauncher
     qbittorrent
