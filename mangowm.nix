@@ -7,7 +7,6 @@
   # Hyprland compositor
   programs.mangowc = {
     enable = true;
-    xwayland.enable = true; # legacy X11 apps support
   };
 
   # GVfs for Nautilus + File Roller integration
@@ -15,11 +14,12 @@
 
   # System packages: Hyprland utilities, file manager, archive tools, bar, launcher
   environment.systemPackages = with pkgs; [
-    # Hyprland extras
-    hyprpaper
-    hyprpicker
-    hyprshot
+    #Mango Needs
+    foot
     kitty
+    pavucontrol
+    gnome-text-editor
+    lxqt.lxqt-policykit
 
     # GTK theming
     nwg-look
@@ -36,15 +36,7 @@
     # Networking
     networkmanagerapplet
 
-    # Archive backends (for File Roller)
-    p7zip
-    unzip
-    unrar
-    xz
-    bzip2
-    gzip
-    gnutar
-    zip
+  
 
     # UI extras
     waybar
