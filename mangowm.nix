@@ -21,6 +21,13 @@
     gnome-text-editor
     lxqt.lxqt-policykit
 
+    xdg.portal = {
+    enable = true;
+    wlr.enable = true; # Handles window capture for wlroots compositors
+    extraPortals = [ pkgs.xdg-desktop-portal-gtk ];
+    };
+   
+
     # GTK theming
     nwg-look
     
