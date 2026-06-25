@@ -18,6 +18,7 @@
   # Optional: add KDE apps
   environment.systemPackages = with pkgs; [
   darkly
+  klassy
   kdePackages.kate
   kdePackages.kcalc
   kdePackages.kdialog
