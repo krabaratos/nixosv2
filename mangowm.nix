@@ -1,8 +1,13 @@
 { config, pkgs, lib, ... }:
 
 {
-  # Display manager: Ly (minimal, Wayland-friendly)
-  services.displayManager.ly.enable = true;
+   services.xserver.displayManager.lightdm = {
+    enable = true;
+    greeters.slick = {
+      enable = true;
+       
+    };
+  };
 
   # Hyprland compositor
   programs.mangowc = {
